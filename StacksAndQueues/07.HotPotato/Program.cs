@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _07.HotPotato
 {
@@ -6,7 +7,9 @@ namespace _07.HotPotato
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] names = Console.ReadLine().Split(' ');
+            int n = int.Parse(Console.ReadLine());
+            Queue<string> queue = new Queue<string>(names);
         }
     }
 }
