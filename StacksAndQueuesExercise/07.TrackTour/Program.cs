@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace _07.TrackTour
 {
@@ -6,7 +7,16 @@ namespace _07.TrackTour
     {
         static void Main(string[] args)
         {
-            
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 0; i < n; i++)
+            {
+                int[] petrolStaitonArgs  = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            }
         }
+    }
+
+    class PetrolPump
+    { 
+        
     }
 }
